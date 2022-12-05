@@ -1,0 +1,14 @@
+#include <stdio.h>
+void mul(int a,int b);
+int main() 
+{
+  int a,b,mul;
+  printf("Enter two numbers\n");
+  scanf("%d%d",&a,&b);
+ mul=a*b;
+  return (a*b);
+  return(a+b);
+printf("\n multiplication=%d",mul);
+ printf(a+b);   
+  }
+
