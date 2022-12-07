@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main() {
+
+  int arr[10],i,n,k;
+
+  printf("Enter elements:");
+
+  scanf("%d",&k);
+
+  for(i=0;i<n;i++)
+
+    scanf("%d",&arr[i]);
+
+  printf("Element to be search");
+
+  scanf("%d",&arr[i]);
+
+  for(i=0;i<n;i++)
+
+    {
+
+      if(arr[i]==n)
+
+      {
+
+        printf("Elements found \n");
+
+        break;
+
+      }
+
+    }
+
+  if(i>=n)
+
+  {
+
+    printf("Elements not found \n");
+
+  }
+
+  }
