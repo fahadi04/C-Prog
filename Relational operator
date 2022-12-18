@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a=10,b=9,c,d,e=10,f;
+clrscr();
+c=b++;
+d=b;
+f=a>b>d<c;
+printf("%d \n", a+c==b>=e<c+d!=1);
+getch();
+}
